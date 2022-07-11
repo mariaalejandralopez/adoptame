@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+/* *{
+    font-family: 'Luckiest Guy';
+    font-family: 'Montserrat Alternates', sans-serif;
+} */
+
+/* Header */
+.header{
+    background-color: #00d8ff;
+    position: sticky;
+    top: 0;
+    left: 0px;
+}
+
+.header__logo__imagen img{
+    width: 100%; 
+}
+
+.header__menu__lista{
+    list-style: none;
+    background-color: #00d8ff;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Luckiest Guy';
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+.header__menu__lista__item{
+    font-size: 22px;
+    display: inline-block;
+    margin: 16px;
+    letter-spacing: 1px;
+}
+
+.header__menu__lista__item a{
+    color: white;
+}
+
+/* Footer */
+.footer{
+    background-color: #00d8ff;    
+}
+
+.footer__lista img{
+    width: 60px;
+}
+
+.footer__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+/* Body */
+h2{
+    color: orange;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+}
+/* body{
+    PONER IMAGEN DE FONDO
+}  */
+
+/* ------- CSS Main Index------ */
+.grid{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-auto-rows: minmax(150px, auto);
+    gap: 15px;
+    grid-auto-flow: dense;  
+}
+.grid__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 300px){
+    .wide{
+        grid-column: span 2;
+    }
+}
+.grid img{
+    width: 100%;
+    object-fit:contain;
+}
+
+.main__aliados img{
+    width: 350px;
+    height: 200px; 
+}
+
+/* ------- CSS Main Quienes Somos ------ */
+.main_titulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding-left: 35px;
+    padding-bottom: 10px;
+
+}
+
+.main_texto{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+/* ------- CSS Main Contacto ------ */
+.contacto_label{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.contacto__tipo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-left: 55px;
+}
+
+.contacto__sexo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-left: 55px;
+}
+
+.contacto__tipo__perro{
+    margin-left: 50px;
+}
+.contacto__tipo__gato{
+    margin-left: 10px;
+}
+
+.contacto__sexo__cachorro{
+    margin-left: 100px;
+}
+
+.contacto__sexo__adulto{
+    margin-left: 10px;
+}
+
+.contacto__boton{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #00d8ff;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 8px;
+}
+.flex_container_contacto{
+    border:dotted 5px #00d8ff;
+    width: fit-content;
+    margin:20px; 
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.main__nuestrasSedes{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+.main__nuestrasSedes_titulo{
+    margin: 20px;
+}
+.main__nuestrasSedes h3{
+    color: #00d8ff;
+    font-family: 'Luckiest Guy';
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.main__nuestrasSedes h4{
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* ------- CSS Main Adopciones Perros y Gatos------ */
+.main_adopciones_item img{
+    width: 450px;
+    height: 300px;
+}
+.main_adopciones{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.main_adopciones_item{
+    padding: 15px;
+    margin-left: 5px;
+}
+.main_adopciones_item_texto{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+/* ------- CSS Main Nuestros Aliados ------ */
+.main__aliadosDetalle__item img{
+    width: 450px;
+    height: 300px;
+}
+
+.main__aliadosDetalle{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.main__aliadosDetalle__item{
+    padding: 15px;
+    margin-left: 5px;
+}
+.main__aliadosDetalle__item__texto{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+/* ------- CSS Main Preguntas Frecuentes ------ */
+
+.main__preguntas__pregunta{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding-left: 35px;
+    padding-bottom: 10px;
+
+}
+
+.main__preguntas__respuesta{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    width: 80%;
+    margin-left: 45px;
+    padding: 10px;
+}

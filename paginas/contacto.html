@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+	<!-- Tipografia -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<!-- Conexion CSS -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+	<header class="header">
+		<!-- Encabezado del sitio -->
+		<a class="header__logo__imagen" href="../index.html">
+			<img src="../imagenes/Logo.jpg" alt="Logo del sitio">
+		</a>
+		<nav>
+			<ul class="header__menu__lista">
+				<li class="header__menu__lista__item"><a href="../paginas/quienes-somos.html">Quienes Somos</a></li>
+				<li class="header__menu__lista__item"><a href="../paginas/adopciones-perros.html">Adopciones Perros</a></li>
+				<li class="header__menu__lista__item"><a href="../paginas/adopciones-gatos.html">Adopciones Gatos</a></li>
+				<li class="header__menu__lista__item"><a href="../paginas/nuestros-aliados.html">Nuestros Aliados</a></li>
+				<li class="header__menu__lista__item"><a href="../paginas/preguntas-frecuentes.html">PQR</a></li>
+				<li class="header__menu__lista__item"><a href="../paginas/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Escríbenos</h2>
+		<!-- Contenido del sitio -->
+		<section class="flex_container_contacto">
+			<!-- Seccion escribenos -->
+			
+			<section>
+				<form class="contacto">	
+					<div class="contacto_label">
+						<label for="nombre">Nombre</label>
+						<input type="text" id="nombre" placeholder="Nombre Completo">
+					</div>
+					<div class="contacto_label">
+						<label for="telefono">Teléfono</label>
+						<input type="text" id="telefono" placeholder="Telefono">
+					</div>
+					<div class="contacto_label">
+						<label for="email">Correo</label>
+						<input type="email" id="email" placeholder="Correo">
+					</div>
+					<div class="contacto__tipo">
+						<label for="genero">Estás buscando</label>
+						<input class="contacto__tipo__perro" type="radio" id="perro" name="genero">
+						<label for="perro">Perro</label>
+						<input class="contacto__tipo__gato" type="radio" id="gato" name="genero">
+						<label for="gato">Gato</label>
+					</div>
+					<div class="contacto__sexo">
+						<label for="edad">Lo buscas</label>
+						<input class="contacto__sexo__cachorro" type="radio" id="cachorro" name="edad">
+						<label for="cachorro">Cachorro</label>
+						<input class="contacto__sexo__adulto" type="radio" id="adulto" name="edad">
+						<label for="adulto">Adulto</label>
+					</div>
+				</form>
+			</section>
+			<section>
+				<form class="contacto2">
+					<div class="contacto_label">
+						<label>Escribe tu mensaje</label>
+						<br>
+						<textarea rows="10" cols="60>" name="escribe"></textarea>
+					</div>
+				</form>
+			</section>	
+		</section>
+		<input class="contacto__boton" type="submit">
+
+		<h2>Nuestras Sedes</h2>
+		<section class="main__nuestrasSedes">	
+			<!-- Seccion Nuestras Sedes -->
+			<div class="main__nuestrasSedes_titulo">
+				<div class="main__nuestrasSedes__manizales__texto">
+					<h3>MANIZALES</h3>
+					<h4>Horario= 8am - 6pm</h4>
+					<h4>Dirección= Calle 7A # 105B-16</h4>
+					<h4>Teléfono= (6)8816589</h4>
+				</div>
+				<div class="main__nuestrasSedes__manizales__mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.1653760146755!2d-75.52997668474949!3d5.076930039692753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47701dfffbe8cf%3A0xe468a51c3fadfcf3!2sMonumento%20a%20Los%20Colonizadores!5e0!3m2!1ses!2sco!4v1655166997405!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+			<div class="main__nuestrasSedes_titulo">
+				<div class="main__nuestrasSedes__medellin__texto">
+					<h3>MEDELLIN</h3>
+					<h4>Horario= 8am - 6pm</h4>
+					<h4>Dirección= Calle 7A # 105B-16</h4>
+					<h4>Teléfono= (6)8816589</h4>
+				</div>
+				<div class="main__nuestrasSedes__medellin__mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.508121847255!2d-75.57601898474935!3d6.1964896285962805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4682881ca00127%3A0xf96762aa39ea4209!2sCentro%20Comercial%20Santaf%C3%A9!5e0!3m2!1ses!2sco!4v1655167122438!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+		</section>
+	</main>
+
+
+	<!-- Pie de pagina -->
+	<footer class="footer">
+		<ul class="footer__lista">
+			<li class="footer__lista__item"><a href="https://www.facebook.com" target="_blank"><img src="../imagenes/Facebook.png"></a></li>
+			<li class="footer__lista__item"><a href="https://www.instagram.com" target="_blank"><img src="../imagenes/Instagram.png"></a></li>
+			<li class="footer__lista__item"><a href="https://www.youtube.com" target="_blank"><img src="../imagenes/Youtube.png"></a></li>
+		</ul>
+	</footer>
+
+    
+</body>
+</html>
