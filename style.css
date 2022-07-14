@@ -103,6 +103,11 @@ body{
     padding: 10px;
 }
 
+.accordion{
+    margin-left: 10%;
+    padding: 10px;
+}
+
 /* ------- CSS Main Contacto ------ */
 .contacto_label{
     font-family: 'Montserrat Alternates', sans-serif;
