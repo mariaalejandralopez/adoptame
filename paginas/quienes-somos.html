@@ -9,7 +9,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<!-- Conexion Bootstrap -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!-- Conexion CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -19,16 +24,38 @@
 		<a class="header__logo__imagen" href="../index.html">
 			<img src="../imagenes/Logo.jpg" alt="Logo del sitio">
 		</a>
-		<nav>
-			<ul class="header__menu__lista">
-				<li class="header__menu__lista__item"><a href="../paginas/quienes-somos.html">Quienes Somos</a></li>
-				<li class="header__menu__lista__item"><a href="../paginas/adopciones-perros.html">Adopciones Perros</a></li>
-				<li class="header__menu__lista__item"><a href="../paginas/adopciones-gatos.html">Adopciones Gatos</a></li>
-				<li class="header__menu__lista__item"><a href="../paginas/nuestros-aliados.html">Nuestros Aliados</a></li>
-				<li class="header__menu__lista__item"><a href="../paginas/preguntas-frecuentes.html">PQR</a></li>
-				<li class="header__menu__lista__item"><a href="../paginas/contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Adopciones
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <li><a class="dropdown-item" href="../paginas/adopciones-perros.html">Adopciones Perros</a></li>
+					  <li><a class="dropdown-item" href="../paginas/adopciones-gatos.html">Adopciones Gatos</a></li>
+					</ul>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="../paginas/nuestros-aliados.html">Nuestros Aliados</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="../paginas/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+				  </li> 
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 	</header>
 
 	<main>
@@ -60,6 +87,7 @@
 			<li class="footer__lista__item"><a href="https://www.youtube.com" target="_blank"><img src="../imagenes/Youtube.png"></a></li>
 		</ul>
 	</footer>
-
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

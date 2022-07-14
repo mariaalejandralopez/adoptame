@@ -9,6 +9,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<!-- Conexion Bootstrap -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!-- Conexion CSS -->
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -19,16 +23,38 @@
 		<a class="header__logo__imagen" href="#">
 			<img src="./imagenes/Logo.jpg" alt="Logo del sitio">
 		</a>
-		<nav>
-			<ul class="header__menu__lista">
-				<li class="header__menu__lista__item"><a href="./paginas/quienes-somos.html">Quienes Somos</a></li>
-				<li class="header__menu__lista__item"><a href="./paginas/adopciones-perros.html">Adopciones Perros</a></li>
-				<li class="header__menu__lista__item"><a href="./paginas/adopciones-gatos.html">Adopciones Gatos</a></li>
-				<li class="header__menu__lista__item"><a href="./paginas/nuestros-aliados.html">Nuestros Aliados</a></li>
-				<li class="header__menu__lista__item"><a href="./paginas/preguntas-frecuentes.html">PQR</a></li>
-				<li class="header__menu__lista__item"><a href="./paginas/contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="./paginas/quienes-somos.html">Quienes Somos</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Adopciones
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <li><a class="dropdown-item" href="./paginas/adopciones-perros.html">Adopciones Perros</a></li>
+					  <li><a class="dropdown-item" href="./paginas/adopciones-gatos.html">Adopciones Gatos</a></li>
+					</ul>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./paginas/nuestros-aliados.html">Nuestros Aliados</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./paginas/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+				  </li> 
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 	</header>
 
 	<main class="main">
@@ -77,9 +103,47 @@
 		</section>	
 		<section class="main__aliados">
 			<h2>Nuestros Aliados</h2>
-			<img src="./imagenes/Asociado1.png" alt="Aliado 1">
+			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active" data-bs-interval="10000">
+					<img src="./imagenes/Asociado1.png" class="d-block w-100" alt="Primer Aliado">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>Primer Aliado</h5>
+					  <p>Laboratio excelente</p>
+					</div>
+				  </div>
+				  <div class="carousel-item" data-bs-interval="2000">
+					<img src="./imagenes/Asociado2.png" class="d-block w-100" alt="Segundo aliado">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>Segundo Aliado</h5>
+					  <p>Segundo aliado</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="./imagenes/Asociado3.png" class="d-block w-100" alt="Tercer aliado">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>Third slide label</h5>
+					  <p>Some representative placeholder content for the third slide.</p>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+			<!-- <img src="./imagenes/Asociado1.png" alt="Aliado 1">
 			<img src="./imagenes/Asociado2.png" alt="Aliado 2">
-			<img src="./imagenes/Asociado3.png" alt="Aliado 3">
+			<img src="./imagenes/Asociado3.png" alt="Aliado 3"> -->
 
 		</section>	
 	</main>
@@ -93,5 +157,7 @@
 			
 		</ul>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
