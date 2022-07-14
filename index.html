@@ -59,31 +59,37 @@
 
 	<main class="main">
 		<h2>Adopciones Perros y Gatos</h2>
-		<section class="grid">
-			<div class="grid__item item1 wide">
-				<img src="./imagenes/Perro1.jpg" alt="Perro adopcion 1">
-			</div>
-			<div class="grid__item item2 ">
-				<img src="./imagenes/Gato1.jpg" alt="Gato adopcion 1">
-			</div>
-			<div class="grid__item item3">
-				<img src="./imagenes/Perro2.png" alt="Perro adopcion 2">
-			</div>
-			<div class="grid__item item4 wide">
-				<img src="./imagenes/Gato2.jpg" alt="Gato adopcion 2">
-			</div>
-			<div class="grid__item item5">
-				<img src="./imagenes/Perro3.jpg" alt="Perro adopcion 3">
-			</div>
-			<div class="grid__item item6 wide">
-				<img src="./imagenes/Gato3.jpg" alt="Gato adopcion 3">
-			</div>
-			<div class="grid__item item7">
-				<img src="./imagenes/Perro4.jpg" alt="Perro adopcion 4">
-			</div>
-			<div class="grid__item item8 wide">
-				<img src="./imagenes/Gato4.jpg" alt="Gato adopcion 3">
-			</div>
+		<section class="carouselAdopciones">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./imagenes/Perro1.jpg" class="d-block w-100" alt="Perro 1">
+					</div>
+					<div class="carousel-item">
+						<img src="./imagenes/Gato1.jpg" class="d-block w-100" alt="Gato 1">
+					</div>
+					<div class="carousel-item">
+						<img src="./imagenes/Perro2.png" class="d-block w-100" alt="Perro 2">
+					</div>
+					<div class="carousel-item">
+						<img src="./imagenes/Gato2.jpg" class="d-block w-100" alt="Gato 2">
+					</div>
+					<div class="carousel-item">
+						<img src="./imagenes/Perro3.jpg" class="d-block w-100" alt="Perro 3">
+					</div>
+					<div class="carousel-item">
+						<img src="./imagenes/Gato3.jpg" class="d-block w-100" alt="Gato 3">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+		  </div>
 
 		</section>	
 		<h2>Nuestros Aliados</h2>

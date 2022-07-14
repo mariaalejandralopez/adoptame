@@ -64,29 +64,13 @@ body{
 } 
 
 /* ------- CSS Main Index------ */
-.grid{
-    width: 70%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-    grid-auto-rows: minmax(150px, auto);
-    gap: 15px;
-    grid-auto-flow: dense;  
+.carouselAdopciones{
+    width: 80%;
+    margin: auto;
 }
-.grid__item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media screen and (min-width: 300px){
-    .wide{
-        grid-column: span 2;
-    }
-}
-.grid img{
-    width: 100%;
-    object-fit:contain;
+.carouselAdopciones img{
+    width:600px ;
+    height: 500px;
 }
 
 .main__aliados img{
