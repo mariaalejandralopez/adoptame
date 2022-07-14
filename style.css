@@ -191,23 +191,19 @@ body{
 }
 
 /* ------- CSS Main Adopciones Perros y Gatos------ */
-.main_adopciones_item img{
-    width: 450px;
-    height: 300px;
+.card-img-top{
+    width: 288px;
+    height: 200px;
 }
 .main_adopciones{
+    width: 90%;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.main_adopciones_item{
-    padding: 15px;
-    margin-left: 5px;
-}
-.main_adopciones_item_texto{
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: black;
-    font-size: 16px;
+.adopciones_card{
+    padding: 10px;
 }
 
 /* ------- CSS Main Nuestros Aliados ------ */
