@@ -93,6 +93,12 @@ body{
     width: 350px;
     height: 200px; 
 }
+.main__aliados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 /* ------- CSS Main Quienes Somos ------ */
 .main_titulo{
