@@ -165,12 +165,14 @@ body{
     padding: 8px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .main__nuestrasSedes{
     display: flex;
     flex-direction: row;
     height: fit-content;
     width: fit-content;
+    flex-wrap: wrap;
 }
 
 .main__nuestrasSedes_titulo{
@@ -189,7 +191,9 @@ body{
     margin-left: 10px;
     margin-bottom: 5px;
 }
-
+.main__nuestrasSedes__manizales__mapa{
+    width: 90%
+}
 /* ------- CSS Main Adopciones Perros y Gatos------ */
 .card-img-top{
     width: 288px;
@@ -204,6 +208,9 @@ body{
 }
 .adopciones_card{
     padding: 10px;
+}
+.card-img-top:hover{
+    transform: scale(1.5);
 }
 .card-title{
     padding-bottom: 10px;
