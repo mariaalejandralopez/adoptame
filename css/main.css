@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-color: #00d8ff; }
+
+.header__logo__imagen img {
+  width: 100%; }
+
+.navbar {
+  list-style: none;
+  margin: 0 auto;
+  width: fit-content; }
+
+.nav-item a {
+  font-size: 22px;
+  margin: 5px;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Luckiest Guy'; }
+
+.dropdown-menu {
+  background-color: #00d8ff; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.footer {
+  background-color: #00d8ff; }
+
+.footer__lista img {
+  width: 60px; }
+
+.footer__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.carouselAdopciones {
+  width: 80%;
+  margin: auto; }
+
+.carouselAdopciones img {
+  width: 600px;
+  height: 500px; }
+
+.main__aliados img {
+  width: 350px;
+  height: 200px; }
+
+.main__aliados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.main_titulo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  padding-left: 35px;
+  padding-bottom: 10px; }
+
+.main_texto {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px; }
+
+.accordion {
+  margin-left: 10%;
+  padding: 10px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.contacto_label {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 35px;
+  font-weight: bold; }
+
+.contacto__tipo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-left: 10px;
+  margin-left: 55px; }
+
+.contacto__sexo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 55px; }
+
+.contacto__tipo__perro {
+  margin-left: 50px; }
+
+.contacto__tipo__gato {
+  margin-left: 10px; }
+
+.contacto__sexo__cachorro {
+  margin-left: 100px; }
+
+.contacto__sexo__adulto {
+  margin-left: 10px; }
+
+.contacto__boton {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: #00d8ff;
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 800px;
+  margin-top: 8px; }
+
+.flex_container_contacto {
+  border: dotted 5px #00d8ff;
+  width: fit-content;
+  margin: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.main__nuestrasSedes {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: fit-content;
+  flex-wrap: wrap; }
+
+.main__nuestrasSedes_titulo {
+  margin: 20px; }
+
+.main__nuestrasSedes h3 {
+  color: #00d8ff;
+  font-family: 'Luckiest Guy';
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 400; }
+
+.main__nuestrasSedes h4 {
+  color: black;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-left: 10px;
+  margin-bottom: 5px; }
+
+.main__nuestrasSedes__manizales__mapa {
+  width: 90%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.card-img-top {
+  width: 288px;
+  height: 200px; }
+
+.main_adopciones {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.adopciones_card {
+  padding: 10px; }
+
+.card-img-top:hover {
+  transform: scale(1.5); }
+
+.card-title {
+  padding-bottom: 10px; }
+
+/* ------- Nuestros Aliados ------ */
+.main__aliados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.main__preguntas__pregunta {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  padding-left: 35px;
+  padding-bottom: 10px; }
+
+.main__preguntas__respuesta {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  width: 80%;
+  margin-left: 45px;
+  padding: 10px; }

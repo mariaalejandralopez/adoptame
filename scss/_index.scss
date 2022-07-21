@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.carouselAdopciones{
+    width: 80%;
+    margin: auto;
+}
+.carouselAdopciones img{
+    width:600px ;
+    height: 500px;
+}
+
+.main__aliados img{
+    width: 350px;
+    height: 200px; 
+}
+.main__aliados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.footer{
+    background-color: #00d8ff;    
+}
+
+.footer__lista img{
+    width: 60px;
+}
+
+.footer__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
