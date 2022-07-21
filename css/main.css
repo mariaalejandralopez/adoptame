@@ -2,6 +2,23 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
+* {
+  font-family: 'Luckiest Guy';
+  font-family: 'Montserrat Alternates', sans-serif; }
+
+h2 {
+  color: orange;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 15px; }
+
+body {
+  background-image: url(../imagenes/Fondo.jpg); }
+
 .header {
   background-color: #00d8ff; }
 
@@ -23,10 +40,6 @@
 .dropdown-menu {
   background-color: #00d8ff; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 .footer {
   background-color: #00d8ff; }
 
@@ -39,10 +52,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center; }
-
-* {
-  margin: 0;
-  padding: 0; }
 
 .carouselAdopciones {
   width: 80%;
@@ -62,10 +71,6 @@
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 .main_titulo {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 25px;
@@ -84,10 +89,6 @@
 .accordion {
   margin-left: 10%;
   padding: 10px; }
-
-* {
-  margin: 0;
-  padding: 0; }
 
 .contacto_label {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -167,10 +168,6 @@
 .main__nuestrasSedes__manizales__mapa {
   width: 90%; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 .card-img-top {
   width: 288px;
   height: 200px; }
@@ -196,10 +193,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-
-* {
-  margin: 0;
-  padding: 0; }
 
 .main__preguntas__pregunta {
   font-family: 'Montserrat Alternates', sans-serif;
