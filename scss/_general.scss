@@ -7,12 +7,12 @@
 }
 
 *{
-    font-family: 'Luckiest Guy';
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuentenav;
+    font-family: $fuenteprincipal;
 }
 h2{
     color: $colorh2;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-weight: bold;
     font-size: 35px;
     padding: 15px;

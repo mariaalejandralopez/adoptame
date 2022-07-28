@@ -6,12 +6,12 @@ a {
   text-decoration: none; }
 
 * {
-  font-family: 'Luckiest Guy';
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: "Luckiest Guy";
+  font-family: "Montserrat Alternates", sans-serif; }
 
 h2 {
   color: orange;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
   font-size: 35px;
   padding: 15px; }
@@ -72,14 +72,14 @@ body {
   flex-wrap: wrap; }
 
 .main_titulo {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 25px;
   font-style: normal;
   padding-left: 35px;
   padding-bottom: 10px; }
 
 .main_texto {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 16px;
   font-style: normal;
   width: 80%;
@@ -91,14 +91,14 @@ body {
   padding: 10px; }
 
 .contacto_label {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 18px;
   padding: 10px;
   margin-left: 35px;
   font-weight: bold; }
 
 .contacto__tipo {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 18px;
   padding-top: 25px;
   padding-left: 10px;
@@ -109,7 +109,7 @@ body {
     margin-left: 10px; }
 
 .contacto__sexo {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 18px;
   padding-top: 5px;
   padding-left: 10px;
@@ -120,7 +120,7 @@ body {
     margin-left: 10px; }
 
 .contacto__boton {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   background-color: #00d8ff;
   color: white;
   font-size: 18px;
@@ -151,14 +151,14 @@ body {
 
 .main__nuestrasSedes h3 {
   color: #00d8ff;
-  font-family: 'Luckiest Guy';
+  font-family: "Luckiest Guy";
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 400; }
 
 .main__nuestrasSedes h4 {
   color: black;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   margin-left: 10px;
   margin-bottom: 5px; }
 
@@ -189,14 +189,14 @@ body {
   flex-wrap: wrap; }
 
 .main__preguntas__pregunta {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 25px;
   font-style: normal;
   padding-left: 35px;
   padding-bottom: 10px; }
 
 .main__preguntas__respuesta {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 16px;
   font-style: normal;
   width: 80%;

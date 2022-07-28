@@ -1,5 +1,5 @@
 .contacto_label{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 18px;
     padding: 10px;
     margin-left: 35px;
@@ -7,7 +7,7 @@
 }
 
 .contacto__tipo{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 18px;
     padding-top: 25px;
     padding-left: 10px;
@@ -23,7 +23,7 @@
 }
 
 .contacto__sexo{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 18px;
     padding-top: 5px;
     padding-left: 10px;
@@ -39,7 +39,7 @@
 }
 
 .contacto__boton{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     background-color: #00d8ff;
     color: white;
     font-size: 18px;
@@ -75,14 +75,14 @@
 
 .main__nuestrasSedes h3{
     color: #00d8ff;
-    font-family: 'Luckiest Guy';
+    font-family: $fuentenav;
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: 400;
 }
 .main__nuestrasSedes h4{
     color: black;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     margin-left: 10px;
     margin-bottom: 5px;
 }

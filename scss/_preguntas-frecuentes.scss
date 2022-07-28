@@ -1,5 +1,5 @@
 .main__preguntas__pregunta{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 25px;
     font-style: normal;
     padding-left: 35px;
@@ -8,7 +8,7 @@
 }
 
 .main__preguntas__respuesta{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 16px;
     font-style: normal;
     width: 80%;
