@@ -1,5 +1,5 @@
 .header{
-    background-color: #00d8ff;
+    background-color: $fondoheaderfooter;
 }
 .header__logo__imagen img{
     width: 100%; 
@@ -13,9 +13,9 @@
     font-size: 22px;
     margin: 5px;
     letter-spacing: 1px;
-    color: white;
-    font-family: 'Luckiest Guy';
+    color: $colorletraheader;
+    font-family: $fuentenav;
 }
 .dropdown-menu{
-    background-color: #00d8ff;
+    background-color: $fondoheaderfooter;
 }
