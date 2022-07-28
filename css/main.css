@@ -35,7 +35,7 @@ body {
   margin: 5px;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Luckiest Guy'; }
+  font-family: "Luckiest Guy"; }
 
 .dropdown-menu {
   background-color: #00d8ff; }
@@ -103,6 +103,10 @@ body {
   padding-top: 25px;
   padding-left: 10px;
   margin-left: 55px; }
+  .contacto__tipo__perro {
+    margin-left: 50px; }
+  .contacto__tipo__gato {
+    margin-left: 10px; }
 
 .contacto__sexo {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -110,18 +114,10 @@ body {
   padding-top: 5px;
   padding-left: 10px;
   margin-left: 55px; }
-
-.contacto__tipo__perro {
-  margin-left: 50px; }
-
-.contacto__tipo__gato {
-  margin-left: 10px; }
-
-.contacto__sexo__cachorro {
-  margin-left: 100px; }
-
-.contacto__sexo__adulto {
-  margin-left: 10px; }
+  .contacto__sexo__cachorro {
+    margin-left: 100px; }
+  .contacto__sexo__adulto {
+    margin-left: 10px; }
 
 .contacto__boton {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -148,9 +144,10 @@ body {
   height: fit-content;
   width: fit-content;
   flex-wrap: wrap; }
-
-.main__nuestrasSedes_titulo {
-  margin: 20px; }
+  .main__nuestrasSedes_titulo {
+    margin: 20px; }
+  .main__nuestrasSedes__manizales__mapa {
+    width: 90%; }
 
 .main__nuestrasSedes h3 {
   color: #00d8ff;
@@ -164,9 +161,6 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
   margin-left: 10px;
   margin-bottom: 5px; }
-
-.main__nuestrasSedes__manizales__mapa {
-  width: 90%; }
 
 .card-img-top {
   width: 288px;
