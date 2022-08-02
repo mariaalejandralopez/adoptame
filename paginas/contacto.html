@@ -63,51 +63,65 @@
 	<main>
 		<h2>Escríbenos</h2>
 		<!-- Contenido del sitio -->
-		<section class="flex_container_contacto">
-			<!-- Seccion escribenos -->
-			
-			<section>
-				<form class="contacto">	
-					<div class="contacto_label">
-						<label for="nombre">Nombre</label>
-						<input type="text" id="nombre" placeholder="Nombre Completo">
-					</div>
-					<div class="contacto_label">
-						<label for="telefono">Teléfono</label>
-						<input type="text" id="telefono" placeholder="Telefono">
-					</div>
-					<div class="contacto_label">
-						<label for="email">Correo</label>
-						<input type="email" id="email" placeholder="Correo">
-					</div>
-					<div class="contacto__tipo">
-						<label for="genero">Estás buscando</label>
-						<input class="contacto__tipo__perro" type="radio" id="perro" name="genero">
-						<label for="perro">Perro</label>
-						<input class="contacto__tipo__gato" type="radio" id="gato" name="genero">
-						<label for="gato">Gato</label>
-					</div>
-					<div class="contacto__sexo">
-						<label for="edad">Lo buscas</label>
-						<input class="contacto__sexo__cachorro" type="radio" id="cachorro" name="edad">
-						<label for="cachorro">Cachorro</label>
-						<input class="contacto__sexo__adulto" type="radio" id="adulto" name="edad">
-						<label for="adulto">Adulto</label>
-					</div>
-				</form>
-			</section>
-			<section>
-				<form class="contacto2">
-					<div class="contacto_label">
-						<label>Escribe tu mensaje</label>
-						<br>
-						<textarea rows="10" cols="60>" name="escribe"></textarea>
-					</div>
-				</form>
-			</section>	
-		</section>
-		<input class="contacto__boton" type="submit">
+		<section class="contacto__form">
+			<form class="row g-3">
+				<div class="col-12">
+					<label for="inputName" class="form-label">Nombre*</label>
+					<input type="text" class="form-control" id="inputName" placeholder="Nombre Completo">
+				</div>
+				<div class="col-12">
+					<label for="inputPhone" class="form-label">Teléfono*</label>
+					<input type="text" class="form-control" id="inputPhone" placeholder="Teléfono">
+				</div>
+				<div class="col-12">
+				<label for="inputEmail" class="form-label">Email*</label>
+				<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+				</div>
 
+				<fieldset class="row mb-3">
+					<legend class="col-form-label col-sm-2 pt-0">Estás Buscando</legend>
+					<div class="col-sm-10">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+						<label class="form-check-label" for="gridRadios1">
+						Perro
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+						<label class="form-check-label" for="gridRadios2">
+						Gato
+						</label>
+					</div>
+					</div>
+				</fieldset>
+				<fieldset class="row mb-3">
+					<legend class="col-form-label col-sm-2 pt-0">Lo Buscas</legend>
+					<div class="col-sm-10">
+					<div class="form-check2">
+						<input class="form-check2-input" type="radio" name="gridRadios2" id="gridRadios3" value="option3" checked>
+						<label class="form-check2-label" for="gridRadios3">
+						Cachorro
+						</label>
+					</div>
+					<div class="form-check2">
+						<input class="form-check2-input" type="radio" name="gridRadios2" id="gridRadios4" value="option4">
+						<label class="form-check2-label" for="gridRadios4">
+						Adulto
+						</label>
+					</div>
+					</div>
+				</fieldset>
+				<div class="col-12">
+					<label for="inputMensaje" class="form-label">Deja un mensaje</label>
+					<input type="text" class="form-control" id="inputMensaje" placeholder="Mensaje">
+				</div>
+				
+				<div class="col-12">
+				<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>
+			</form>
+		</section>
 		<h2>Nuestras Sedes</h2>
 		<section class="main__nuestrasSedes">	
 			<!-- Seccion Nuestras Sedes -->
@@ -119,7 +133,7 @@
 					<h4>Teléfono= (6)8816589</h4>
 				</div>
 				<div class="main__nuestrasSedes__manizales__mapa">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.1653760146755!2d-75.52997668474949!3d5.076930039692753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47701dfffbe8cf%3A0xe468a51c3fadfcf3!2sMonumento%20a%20Los%20Colonizadores!5e0!3m2!1ses!2sco!4v1655166997405!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.1653760146755!2d-75.52997668474949!3d5.076930039692753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47701dfffbe8cf%3A0xe468a51c3fadfcf3!2sMonumento%20a%20Los%20Colonizadores!5e0!3m2!1ses!2sco!4v1655166997405!5m2!1ses!2sco" class="contacto__mapas" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
 			<div class="main__nuestrasSedes_titulo">
@@ -130,7 +144,7 @@
 					<h4>Teléfono= (6)8816589</h4>
 				</div>
 				<div class="main__nuestrasSedes__medellin__mapa">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.508121847255!2d-75.57601898474935!3d6.1964896285962805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4682881ca00127%3A0xf96762aa39ea4209!2sCentro%20Comercial%20Santaf%C3%A9!5e0!3m2!1ses!2sco!4v1655167122438!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.508121847255!2d-75.57601898474935!3d6.1964896285962805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4682881ca00127%3A0xf96762aa39ea4209!2sCentro%20Comercial%20Santaf%C3%A9!5e0!3m2!1ses!2sco!4v1655167122438!5m2!1ses!2sco" class="contacto__mapas" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 		</section>
 	</main>

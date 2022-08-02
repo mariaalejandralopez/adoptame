@@ -90,64 +90,26 @@ body {
   margin-left: 10%;
   padding: 10px; }
 
-.contacto_label {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 18px;
-  padding: 10px;
-  margin-left: 35px;
-  font-weight: bold; }
+.contacto__form {
+  width: 80%;
+  padding-left: 50px; }
 
-.contacto__tipo {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 18px;
-  padding-top: 25px;
-  padding-left: 10px;
-  margin-left: 55px; }
-  .contacto__tipo__perro {
-    margin-left: 50px; }
-  .contacto__tipo__gato {
-    margin-left: 10px; }
-
-.contacto__sexo {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 18px;
-  padding-top: 5px;
-  padding-left: 10px;
-  margin-left: 55px; }
-  .contacto__sexo__cachorro {
-    margin-left: 100px; }
-  .contacto__sexo__adulto {
-    margin-left: 10px; }
-
-.contacto__boton {
-  font-family: "Montserrat Alternates", sans-serif;
-  background-color: #00d8ff;
-  color: white;
-  font-size: 18px;
-  padding: 8px;
-  font-weight: bold;
-  margin-left: 800px;
-  margin-top: 8px; }
-
-.flex_container_contacto {
-  border: dotted 5px #00d8ff;
-  width: fit-content;
-  margin: 20px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
+.form-control {
+  width: 50%; }
 
 .main__nuestrasSedes {
+  width: 90%;
   display: flex;
   flex-direction: row;
-  height: fit-content;
-  width: fit-content;
-  flex-wrap: wrap; }
-  .main__nuestrasSedes_titulo {
-    margin: 20px; }
-  .main__nuestrasSedes__manizales__mapa {
-    width: 90%; }
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.main__nuestrasSedes_titulo {
+  margin: 20px; }
+
+.contacto__mapas {
+  height: 300px;
+  width: 90%; }
 
 .main__nuestrasSedes h3 {
   color: #00d8ff;
